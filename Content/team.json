@@ -1,0 +1,199 @@
+{
+    "table": {
+        "keys": [
+            "team",
+            "day",
+            "time",
+            "hall"
+        ],
+        "header": {
+            "data": [
+                "team",
+                "day",
+                "time",
+                "hall"
+            ],
+            "attr": {
+                "team": {
+                    "class": "text-left"
+                },
+                "day": {
+                    "class": "text-left"
+                },
+                "time" : {
+                    "class": "text-center"
+                },
+                "hall": {
+                    "class": "text-left"
+                }
+            }
+        },
+        "body": {
+            "data": [
+                {
+                    "team": "U8 mix",
+                    "day": "Friday",
+                    "time": {
+                        "start": "15:30",
+                        "end": "16:45"
+                    },
+                    "hall": "Deusterschule Kitzingen"
+                },
+                {
+                    "team": "U10 mix",
+                    "day": "Friday",
+                    "time": {
+                        "start": "17:00",
+                        "end": "18:30"
+                    },
+                    "hall": "Deusterschule Kitzingen"
+                },
+                {
+                    "team": "U10 mix",
+                    "day": "Friday",
+                    "time": {
+                        "start": "16:45",
+                        "end": "18:15"
+                    },
+                    "hall": "Deusterschule Kitzingen"
+                },
+                {
+                    "team": "U12 mix",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "17:35",
+                        "end": "18:45"
+                    },
+                    "hall": "Mainstockheim"
+                },
+                {
+                    "team": "U12 mix",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "11:00",
+                        "end": "12:30"
+                    },
+                    "hall": "Mainstockheim"
+                },
+                {
+                    "team": "U14 m",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "16:30",
+                        "end": "18:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U14 m",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "17:00",
+                        "end": "18:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U14 w",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "17:00",
+                        "end": "18:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U14 w",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "18:30",
+                        "end": "20:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U16 m",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "16:30",
+                        "end": "18:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U16 m",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "18:30",
+                        "end": "20:00"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U18/20 Damon",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "18:30",
+                        "end": "20:00"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U18/20 Damon",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "18:30",
+                        "end": "20:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U18 m",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "20:30",
+                        "end": "22:00"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U18 m",
+                    "day": "Thursday",
+                    "time": {
+                        "start": "18:30",
+                        "end": "20:00"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U20/ Men",
+                    "day": "Sunday",
+                    "time": {
+                        "start": "20:30",
+                        "end": "22:00"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "U20/ Men",
+                    "day": "Sunday",
+                    "time": {
+                        "start": "20:00",
+                        "end": "21:30"
+                    },
+                    "hall": "Arena Kitzingen"
+                },
+                {
+                    "team": "OPEN COURT",
+                    "day": "Sunday",
+                    "time": {
+                        "start": "15:00",
+                        "end": "16:00"
+                    },
+                    "hall": "Arena Kitzingen"
+                }
+            ],
+            "attr": {}
+        }
+    }
+}

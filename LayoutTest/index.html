@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Test</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        section{
+            background-color: #0152CC;
+            padding: 1% 1.5% 1% 1%;
+            max-width: 710px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            margin: 0;
+        }
+        .col-1{
+            grid-column: span 1 / span 1;
+        }
+        .box{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 6vw;
+            text-align: center;
+            aspect-ratio: 1;
+        }
+        .blue{
+            background-color: #0152AE;
+            color: black;
+            z-index: 10;
+        }
+        .gray{
+            background-color: #fff;
+            color: #333333;
+        }
+        .border-top{
+            border-top: 7px solid #000000;
+        }
+        .border-bottom{
+            border-bottom: 7px solid #000000;
+        }
+        .border-left{
+            border-left: 7px solid #000000;
+        }
+        .border-right{
+            border-right: 7px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="col-1">
+                <div class="blue box border-top border-left">T</div>
+            </div>
+            <div class="col-1">
+                <div class="gray box border-top" style="border-right: 7px solid #0152CC;box-shadow: inset 0px -7px 7px 1px #808080b5;">E</div>
+            </div>
+            <div class="col-1">
+                <div class="gray box border-bottom" style="border-left: 7px solid #0152CC;box-shadow: inset 0px 7px 7px 1px #808080b5;">S</div>
+            </div>
+            <div class="col-1">
+                <div class="blue box border-right border-bottom">T</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
