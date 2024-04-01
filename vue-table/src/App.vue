@@ -39,7 +39,7 @@
 <template>
 	<div class="bg-white p-5 container mx-auto">
 		<FooTable
-			:groupTable="true"
+			:groupTable="false"
 			:json="simpleData"
 			groupKey="team"
 			:loading="loading"

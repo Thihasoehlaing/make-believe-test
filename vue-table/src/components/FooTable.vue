@@ -95,11 +95,15 @@
             </tbody>
             <tbody v-else class="bg-[#E5E7EB]">
                 <template v-if="!loading">
-                    <tr v-for="(item, index) in data" :key="index">
+                    <tr 
+                        v-for="(item, index) in json.body.data" 
+                        :key="index"
+                        :class="index % 2 === 0 ? 'bg-white' : 'bg-[#E5E7EB]'"
+                    >
                         <td 
                             v-for="(value, key) in item" 
                             :key="key" 
-                            class="px-4 py-2"
+                            class="px-2 md:px-3 py-2"
                         >
                             <div v-html="value"></div>
                         </td>
