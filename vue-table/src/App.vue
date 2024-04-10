@@ -24,7 +24,7 @@
 
 	const transformer = (data) => {
 		return {
-			team: data.team,
+			team: data.team ? `<strong>${data.team}</strong>` : '',
 			day: data.day,
 			time: getTimeForm(data.time),
 			hall: data.hall

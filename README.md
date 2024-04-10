@@ -1,7 +1,8 @@
 # Make Believe Test
 
 ## Test 1: Layout HTML/CSS
-> Reference [Image](https://jfnet-my.sharepoint.com/personal/tin_bkk_jfnet_group/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftin%5Fbkk%5Fjfnet%5Fgroup%2FDocuments%2F%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%99%E0%B8%9A%E0%B8%A1%E0%B8%B2%2Ffrontend%5Ftest%2D1%2Ejpg&parent=%2Fpersonal%2Ftin%5Fbkk%5Fjfnet%5Fgroup%2FDocuments%2F%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%99%E0%B8%9A%E0%B8%A1%E0%B8%B2&ga=1) 
+> Reference [Image](image.png) 
+
 ### Technology
 1. HTML
 2. CSS
